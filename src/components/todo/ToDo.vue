@@ -366,4 +366,22 @@ export default {
     }
   }
 }
+@media screen and (max-width: 1152px){
+  .section{
+    padding: 100px 16px 0;
+  }
+}
+@media screen and (max-width: 768px){
+ .section .tabel_header .text_header, .section .tabel_body .text_header{
+   font-size: 11px;
+ }
+ .tabel_header .text_inner, .tabel_body .text_inner{
+   font-size: 11px;
+ }
+}
+@media screen and (max-width: 425px){
+ .section .head_search button{
+       font-size: 13px;
+ }
+}
 </style>

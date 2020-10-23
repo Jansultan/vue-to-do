@@ -37,4 +37,10 @@ export default {
     margin-right: auto;
     width: 1120px;
 }
+
+@media screen and (max-width: 1152px) {
+  .main {
+    width: 100%;
+  }
+}
 </style>

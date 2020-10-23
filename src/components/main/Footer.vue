@@ -72,4 +72,9 @@
     }
   }
 }
+@media screen and (max-width: 1152px) {
+  .footer .footer_inner {
+    width: 100%;
+  }
+}
 </style>

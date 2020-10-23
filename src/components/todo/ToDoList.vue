@@ -137,4 +137,28 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: 768px){
+ .section .tabel_header .text_header, .section .tabel_body .text_header{
+   font-size: 11px;
+ }
+ .tabel_header .text_inner, .tabel_body .text_inner{
+   font-size: 11px;
+ }
+ .tabel_header .buttons, .tabel_body .buttons{
+     flex-wrap: wrap;
+     button{
+         margin-bottom: 16px;
+     }
+ }
+}
+@media screen and (max-width: 425px){
+ .tabel_header .buttons, .tabel_body .buttons{
+     width: 19%;
+     padding: 0;
+     button{
+         margin-right: 0;
+     }
+ }
+}
 </style>
