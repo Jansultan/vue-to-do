@@ -7,6 +7,7 @@ import store from './store/index'
 import ApiPlugin from './plugins/api'
 import LoadPlugin from './plugins/load'
 
+import 'material-design-icons-iconfont'
 
 // Vue.config.productionTip = false
 Vue.use(VueRouter)

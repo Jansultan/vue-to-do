@@ -10,7 +10,7 @@ export default new VueRouter({
     mode: 'history',
     routes: [{
             path: '/',
-            name: 'layout',
+            name: '',
             component: Layout,
             children: [{
                     path: '/',

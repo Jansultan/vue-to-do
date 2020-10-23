@@ -2,7 +2,7 @@
   <modal
     name="auth-modal"
     classes="auth-modal"
-    height="350px"
+    height="auto"
     width="500px"
     @before-close="close"
   >
@@ -18,6 +18,12 @@
           placeholder="Ваша имя"
           :class="isUsername ? 'is-invalid' : ''"
         />
+        <p
+          v-if="isUsername"
+          class="invalid-feedback"
+        >
+          Обязательное поле
+        </p>
       </div>
       <div class="form-group">
         <label for="password">Пароль:</label>
@@ -29,6 +35,12 @@
           v-model.trim="form.password"
           :class="isPassword ? 'is-invalid' : ''"
         />
+        <p
+          v-if="isPassword"
+          class="invalid-feedback"
+        >
+          Обязательное поле
+        </p>
       </div>
       <div class="actions">
         <a href="#" @click.prevent="mode = isSignInForm ? 'signUp' : 'signIn'">

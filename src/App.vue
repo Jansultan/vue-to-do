@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-     <!-- <div v-if="isViewPreloader" class="preloader">
+     <div v-if="isViewPreloader" class="preloader">
       <div class="preloader-5"></div>
-    </div> -->
-    <router-view></router-view> 
+    </div>
+    <router-view v-else></router-view> 
   </div>
 </template>
 
