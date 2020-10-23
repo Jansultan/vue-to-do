@@ -11,7 +11,6 @@
       <button
         v-if="!row_todo_list.check"
         @click.prevent="updateCheck(row_todo_list)"
-        :key="row_todo_list.id"
       >
         <i class="material-icons">done</i>
       </button>
